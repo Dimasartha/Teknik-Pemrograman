@@ -1,0 +1,1 @@
+record Pemain(String nama, String posisi, int nomor) {}
