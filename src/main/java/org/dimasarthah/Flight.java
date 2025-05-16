@@ -6,7 +6,7 @@ public abstract class Flight {
     private String id;
     List<Passenger> passengers = new ArrayList<>();
 
-    public Flight(String id) {
+    protected Flight(String id) {
         this.id = id;
     }
 
